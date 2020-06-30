@@ -44,7 +44,7 @@
 .tabs__item_active::after {
   content: '';
   position: absolute;
-  bottom: -4px;
+  bottom: -3px;
   left: 0;
   right: 0;
   height: 5px;
