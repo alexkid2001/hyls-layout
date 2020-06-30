@@ -1,0 +1,67 @@
+.swipe-button {
+  background-color: #C3CBCE;
+  border: 2px solid #fff;
+  position: sticky;
+  height: 58px;
+  bottom: 80px;
+  border-radius: 29px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  -o-border-radius: 29px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  box-shadow: 0 0 11px rgba(21, 30, 38, .5);
+}
+
+.swipe-button__text {
+  font-family: 'SF Bold', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.swipe-button__lock {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  box-shadow: 0 0 11px rgba(21, 30, 38, .4);
+  z-index: 100;
+}
+
+.swipe-button__lock #Check {
+  fill: #C3CBCE;
+}
+
+.swipe-button_lock {
+  background-color: #03B900;
+}
+
+.swipe-button_lock .swipe-button__lock {
+  left: auto;
+  right: 3px;
+}

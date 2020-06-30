@@ -1,0 +1,33 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
+@import "nav.css";
+@import "banner.css";
+@import "tabs.css";
+@import "complexes.css";
+@import "complex.css";
+@import "custom-scrollbar.css";
+@import "footer.css";
+@import "swipe-button.css";
+
+body {
+  font-family: 'SF Regular', sans-serif;
+  font-size: 16px;
+  color: #334856;
+}
+
+.main-content {
+  display: block;
+  min-width: 375px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ECEFF0;
+  position: relative;
+}
+
+
+
+
+
+
+

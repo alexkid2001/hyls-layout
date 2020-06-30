@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'SF Bold';
+  src: local('San Francisco(SF UI) Display Bold'), local('San-Francisco(SF-UI)-Display-Bold'),
+      url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Medium';
+  src: local('San Francisco(SF UI) Display Medium'), local('San-Francisco(SF-UI)-Display-Medium'),
+      url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Medium.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Regular';
+  src: local('San Francisco(SF UI) Display Regular'), local('San-Francisco(SF-UI)-Display-Regular'),
+      url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/SFUIDisplay-Regular.woff') format('woff'),
+      url('../fonts/SFUIDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

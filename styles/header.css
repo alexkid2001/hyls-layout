@@ -1,0 +1,7 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: auto;
+  z-index: 100;
+}

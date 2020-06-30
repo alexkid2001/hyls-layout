@@ -1,0 +1,96 @@
+.nav {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 3px solid #C3CBCE;
+}
+
+.nav__item {
+  background-color: #f0f0f0;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'SF Bold', sans-serif;
+  font-weight: 700;
+  color: rgba(51,72,86,0.55);
+  box-shadow: -2px 0px 0px 0px #fff;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+.nav__item:nth-child(1) {
+    flex-basis: 39%;
+    box-shadow: none;
+}
+
+.nav__item:nth-child(2) {
+  flex-basis: 44%;
+}
+
+.nav__item:nth-child(3) {
+  flex-basis: 17%;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 17px;
+  padding-right: 17px; */
+  padding-top: 2px;
+  height: 100%;
+  width: 100%;
+}
+
+.nav__title {
+  margin-left: 10px;
+}
+
+.nav__icon svg {
+  stroke: #334856;
+  stroke-opacity: 0.55;
+  fill: #334856;
+  fill-opacity: 0.55;
+}
+
+.nav__icon #V {
+  stroke-width: 3.5;
+}
+
+.nav__icon #Star {
+  /* fill: rgba(51,72,86,0.55); */
+  fill:  #334856;
+}
+
+.nav__icon #Settings {
+  stroke-width: 0;
+
+}
+
+.nav__item_active {
+  color: #334856;
+  background-color: #fff;
+}
+
+
+.nav__item_active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 3px;
+  background-color: #46D444;
+}
+
+.nav__item_active .nav__icon svg {
+  stroke: #334856;
+  stroke-opacity: 1;
+  fill-opacity: 1;
+}

@@ -1,0 +1,9 @@
+.footer {
+  background-image: linear-gradient(to bottom, #fff, #C3CBCE);
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 62px;
+  z-index: 100;
+}

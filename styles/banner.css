@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  padding: 30px 18px 33px;
+  position: relative;
+  min-height: 206px;
+}
+
+.banner__content {
+  padding-right: 190px;
+}
+
+.banner__title {
+  font-size: 26px;
+  font-family: 'SF Bold', sans-serif;
+  font-weight: 700;
+}
+
+.banner__text {
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+}
+
+.banner__img {
+  position: absolute;
+  bottom: 27px;
+  right: 4px;
+  width: 239px;
+  height: 134px;
+}
+
+.banner__img img {
+  object-fit: contain;
+  -o-object-fit: contain;
+}

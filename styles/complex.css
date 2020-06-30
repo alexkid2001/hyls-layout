@@ -1,0 +1,91 @@
+.complex {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 84px;
+  padding: 9px 8px 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+.complex:hover {
+  box-shadow: none;
+}
+
+.complex__thumb {
+  width: 120px;
+  height: 68px;
+  position: relative;
+}
+
+.complex__descr {
+  font-size: 14px;
+  font-family: 'SF Medium', sans-serif;
+  margin-left: 18px;
+  letter-spacing: -0.3px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  display: -webkit-box;
+  box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+}
+
+.complex__label {
+  padding: 4px 9px;
+  background-color: #C3CBCE;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'SF Bold', sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 7px 0 7px;
+  -webkit-border-radius: 0 7px 0 7px;
+  -moz-border-radius: 0 7px 0 7px;
+  -ms-border-radius: 0 7px 0 7px;
+  -o-border-radius: 0 7px 0 7px;
+}
+
+.complex_close {
+  background-color: #E8E9EA;
+  cursor: no-drop;
+  box-shadow: none;
+  border: 2px solid #C3CBCE;
+}
+
+.complex_close .complex__thumb::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.complex_close .complex__label {
+  padding: 4px 7px 4px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.complex #Lock {
+  fill: #fff;
+  margin-right: 4px;
+}

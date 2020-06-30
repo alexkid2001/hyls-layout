@@ -1,0 +1,8 @@
+.complexes {
+  display: flex;
+  flex-direction: column;
+}
+
+.complexes > *:nth-child(n+2) {
+  margin-top: 12px;
+}
